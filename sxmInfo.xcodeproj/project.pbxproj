@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8795F27D380B9DF38C6BB23D /* Pods_sxmInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F19BC6C6C24553A8573FD8D /* Pods_sxmInfo.framework */; };
+		9C6A9FB4205F28260023BF24 /* JSTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A9FB3205F28260023BF24 /* JSTableCellView.swift */; };
+		9C6A9FB720699A870023BF24 /* CSwiftV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A9FB620699A860023BF24 /* CSwiftV.swift */; };
+		9C6A9FB9206A81670023BF24 /* customTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A9FB8206A81670023BF24 /* customTableViewRow.swift */; };
+		9C6A9FBB206EFE150023BF24 /* sxmWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A9FBA206EFE150023BF24 /* sxmWindow.swift */; };
 		9CE34CCB1F8879DE00BB13BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE34CCA1F8879DE00BB13BE /* AppDelegate.swift */; };
 		9CE34CCD1F8879DE00BB13BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE34CCC1F8879DE00BB13BE /* ViewController.swift */; };
 		9CE34CCF1F8879DE00BB13BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE34CCE1F8879DE00BB13BE /* Assets.xcassets */; };
@@ -14,12 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30C31D779EF916ECB4CC7DA3 /* Pods-sxmInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sxmInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-sxmInfo/Pods-sxmInfo.release.xcconfig"; sourceTree = "<group>"; };
+		7F19BC6C6C24553A8573FD8D /* Pods_sxmInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sxmInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6A9FB3205F28260023BF24 /* JSTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSTableCellView.swift; sourceTree = "<group>"; };
+		9C6A9FB520699A850023BF24 /* CSwiftV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSwiftV.h; sourceTree = "<group>"; };
+		9C6A9FB620699A860023BF24 /* CSwiftV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSwiftV.swift; sourceTree = "<group>"; };
+		9C6A9FB8206A81670023BF24 /* customTableViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewRow.swift; sourceTree = "<group>"; };
+		9C6A9FBA206EFE150023BF24 /* sxmWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sxmWindow.swift; sourceTree = "<group>"; };
 		9CE34CC71F8879DE00BB13BE /* sxmInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sxmInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE34CCA1F8879DE00BB13BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE34CCC1F8879DE00BB13BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CE34CCE1F8879DE00BB13BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE34CD11F8879DE00BB13BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CE34CD31F8879DE00BB13BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F331AEBCAD01FF3140CA079D /* Pods-sxmInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sxmInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sxmInfo/Pods-sxmInfo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8795F27D380B9DF38C6BB23D /* Pods_sxmInfo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +52,8 @@
 			children = (
 				9CE34CC91F8879DE00BB13BE /* sxmInfo */,
 				9CE34CC81F8879DE00BB13BE /* Products */,
+				F2888448686C78DAC44606FB /* Pods */,
+				A2838449D6C25C9848268C69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +69,34 @@
 			isa = PBXGroup;
 			children = (
 				9CE34CCA1F8879DE00BB13BE /* AppDelegate.swift */,
+				9C6A9FBA206EFE150023BF24 /* sxmWindow.swift */,
 				9CE34CCC1F8879DE00BB13BE /* ViewController.swift */,
+				9C6A9FB8206A81670023BF24 /* customTableViewRow.swift */,
 				9CE34CCE1F8879DE00BB13BE /* Assets.xcassets */,
 				9CE34CD01F8879DE00BB13BE /* Main.storyboard */,
+				9C6A9FB3205F28260023BF24 /* JSTableCellView.swift */,
 				9CE34CD31F8879DE00BB13BE /* Info.plist */,
+				9C6A9FB620699A860023BF24 /* CSwiftV.swift */,
+				9C6A9FB520699A850023BF24 /* CSwiftV.h */,
 			);
 			path = sxmInfo;
+			sourceTree = "<group>";
+		};
+		A2838449D6C25C9848268C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F19BC6C6C24553A8573FD8D /* Pods_sxmInfo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2888448686C78DAC44606FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F331AEBCAD01FF3140CA079D /* Pods-sxmInfo.debug.xcconfig */,
+				30C31D779EF916ECB4CC7DA3 /* Pods-sxmInfo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CE34CD61F8879DE00BB13BE /* Build configuration list for PBXNativeTarget "sxmInfo" */;
 			buildPhases = (
+				0E1BD1E3E5BB7CA951ED4B7A /* [CP] Check Pods Manifest.lock */,
 				9CE34CC31F8879DE00BB13BE /* Sources */,
 				9CE34CC41F8879DE00BB13BE /* Frameworks */,
 				9CE34CC51F8879DE00BB13BE /* Resources */,
+				36A1153510EADBDD08B24DCB /* [CP] Embed Pods Frameworks */,
+				F1F55FA2CE1A22F01176D243 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -88,12 +129,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = soward.net;
 				TargetAttributes = {
 					9CE34CC61F8879DE00BB13BE = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 35GVCG9YTU;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,13 +170,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E1BD1E3E5BB7CA951ED4B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36A1153510EADBDD08B24DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sxmInfo/Pods-sxmInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F55FA2CE1A22F01176D243 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sxmInfo/Pods-sxmInfo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CE34CC31F8879DE00BB13BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C6A9FB4205F28260023BF24 /* JSTableCellView.swift in Sources */,
 				9CE34CCD1F8879DE00BB13BE /* ViewController.swift in Sources */,
+				9C6A9FB720699A870023BF24 /* CSwiftV.swift in Sources */,
 				9CE34CCB1F8879DE00BB13BE /* AppDelegate.swift in Sources */,
+				9C6A9FBB206EFE150023BF24 /* sxmWindow.swift in Sources */,
+				9C6A9FB9206A81670023BF24 /* customTableViewRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +256,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -170,7 +266,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -212,7 +312,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -220,7 +322,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -246,29 +352,37 @@
 		};
 		9CE34CD71F8879DE00BB13BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F331AEBCAD01FF3140CA079D /* Pods-sxmInfo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 35GVCG9YTU;
 				INFOPLIST_FILE = sxmInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.soward.sxmInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		9CE34CD81F8879DE00BB13BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C31D779EF916ECB4CC7DA3 /* Pods-sxmInfo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 35GVCG9YTU;
 				INFOPLIST_FILE = sxmInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.soward.sxmInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -291,6 +405,7 @@
 				9CE34CD81F8879DE00BB13BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
